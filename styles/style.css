@@ -179,12 +179,13 @@ background: rgb(255, 244, 214);
 }
 
 
-.help-container1{
+.help-container1, .help-container2{
   
     display: flex;
+    margin-bottom: 100px;
     
 }
-.help-content{
+.help-content, .help-content2{
     width: 1200px;
     height: 374px;
 }
@@ -195,7 +196,20 @@ background: rgb(255, 244, 214);
     height: 477px;
     margin-left: 500px;
 }
+.help-container2 img{
+    margin-left: 50px;
+    width: 456px;
+    height: 477px;
+    margin-right: 500px;
+}
 .help-content h2{
+    font-size: 45px;
+font-weight: 700;
+line-height: 54px;
+color: black;
+margin-bottom: 20px;
+}
+.help-content2 h2{
     font-size: 45px;
 font-weight: 700;
 line-height: 54px;
@@ -210,3 +224,58 @@ line-height: 28px;
 margin-left: 0px;
 margin-bottom: 20px;
 }
+.help-content2 p{
+    color: rgb(112, 112, 112);
+    font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+margin-left: 0px;
+margin-bottom: 20px;
+}
+
+/* 3rd section style */
+.update-title{
+    width: 691px;
+height: 130px;
+text-align: center;
+margin-left: 400px;
+
+}
+.update-title h1{
+    font-size: 45px;
+font-weight: 700;
+line-height: 54px;
+color: black;
+margin-bottom: 20px;
+}
+.update-title p{
+    color: rgb(112, 112, 112);
+    font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+margin-bottom: 50px;
+}
+.verify{
+    background: rgb(255, 244, 214);
+    width: 809px;
+height: 200px;
+margin-top: 50px;
+margin-bottom: 130px;
+margin-left: 25%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.verify #email{
+    border-radius: 5px 0px 0px 5px;
+
+background: rgb(217, 217, 217);
+width: 275px;
+height: 48px;
+padding: 10px;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+border: none;
+}
+
