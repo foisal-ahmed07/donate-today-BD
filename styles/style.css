@@ -138,10 +138,6 @@ margin-bottom: 50px;
     justify-content: center;
 }
 
-.primary-width img, h3, p{
-    padding-left:25px ;
-    
-}
 .primary-h{
     font-size: 24px;
     font-weight: 600;
@@ -307,4 +303,70 @@ background: rgb(11, 13, 23);
    font-size: 14px;
 font-weight: 400;
 line-height: 24px;
+}
+
+/* mobile responsive style start */
+
+@media screen and (max-width: 576px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .header-container {
+      
+    }
+    
+    .header-content{
+        left: 0;
+        top: 0;
+        position:none;
+        
+    }
+    main, .help-container1 img{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .donate-money, .donate-description{
+        flex-direction: column;
+        width: 400px;
+    }
+    .donate-content{
+        text-align: left;
+    }
+
+    .help-content, .help-content2{
+        width: auto;
+        text-align: left;
+        
+    }
+    .help-content p{
+        width: 400px;
+    }
+    .help-container2 img{
+        margin-left: 0;
+    }
+    .help-container1, .help-container2, .donate-btn{
+        display: flex;
+        flex-direction: column;  
+        width: 400px;
+    }
+    .other{
+        border: none;
+    }
+    .update-title{
+        text-align: left;
+        margin-left: 0;
+        width: auto;
+        
+    }
+    .verify{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin-left: 0;
+    }
+    #footer-content {
+            padding: 0;
+            width: 400px;
+}
 }
